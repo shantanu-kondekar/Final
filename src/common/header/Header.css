@@ -1,0 +1,24 @@
+.logo-image{
+    background-color: #ff7f7f;
+    height: 35px;
+    float: left;
+    animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+
+#in-out-btn{
+    float: right;
+    color: default;
+}
+
+#book-show-btn{
+    float: right;
+    margin-right: 10px;
+}

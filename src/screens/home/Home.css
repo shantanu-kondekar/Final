@@ -1,0 +1,45 @@
+
+.home-container{
+    list-style-type: none;   
+    display: table;
+    width: 100%;
+}
+.heading{
+    background: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+.flex-container{
+    display: table-cell;
+    margin: 16px;
+    width: 75%;
+    position: relative;
+
+}
+
+.img-grid{
+    list-style-type: none;
+    cursor: pointer;
+    line-height:10px;
+    list-style-type: none;
+    padding-top: 0px;
+    padding-left: 2px 2px;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px red;
+  }
+
+
+.title-grid{
+    padding-bottom: 5px;    
+}
+
+.movie-card-container{
+    display: table-cell;
+    vertical-align: middle;
+    width: 20%;
+    position: absolute;
+    align-items: center;
+}
+
